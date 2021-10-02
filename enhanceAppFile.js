@@ -26,9 +26,9 @@ export default ({ Vue, router }) => {
     // 路由
     router.afterEach(function(to, from) {
       if (typeof _czc != 'undefined') {
-        console.log(to.fullPath, 'cnzzAnalytics')
         _czc.push(['_setAutoPageview', false])
         _czc.push(['_trackPageview', router.app.$withBase(to.fullPath), router.app.$withBase(from.fullPath)])
+        // process.env.NODE_ENV !== 'production' &&  console.log('上报cnzz统计', router.app.$withBase(to.fullPath))
       }
     })
   }

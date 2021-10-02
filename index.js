@@ -6,7 +6,7 @@ module.exports = (options = {}, context) => ({
     const id = options.id || siteConfig.id
     const type = options.type || siteConfig.type
     const ID = id || false
-    const TYPE = type || 'none'
+    const TYPE = type || false
     return { ID, TYPE }
   },
 
