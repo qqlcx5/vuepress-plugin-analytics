@@ -9,6 +9,7 @@ module.exports = {
       'vuepress-plugin-cnzz-analytics',
       {
         id: '' // 00000000,
+        isDebug: false, // 打印上报router信息
         type: ''
         // pic1 图标1
         // pic2 图标2
