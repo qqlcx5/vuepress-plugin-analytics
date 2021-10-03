@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-cnzz-analytics",
-  "version": "1.8.9",
+  "version": "1.9.2",
   "description": "cnzz-analytics plugin for vuepress",
   "keywords": [
     "documentation",

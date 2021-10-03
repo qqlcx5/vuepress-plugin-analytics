@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import reqCnzz from "./request-cnzz"
 export default {
   name: "cnzz-analytics",
   data() {
@@ -10,5 +11,8 @@ export default {
       GA_ID: GA_ID,
     };
   },
+  mounted(){
+    reqCnzz()
+  }
 };
 </script>
