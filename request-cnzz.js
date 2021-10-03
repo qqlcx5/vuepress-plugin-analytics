@@ -12,8 +12,8 @@ let mode = MAP[TYPE] ? MAP[TYPE] : ''
 
 function cnzz() {
   const script = document.createElement('script')
-  script.src = `https://s9.cnzz.com/z_stat.php?id=${GA_ID}${mode}`
-  script.id = GA_ID
+  script.src = `https://s9.cnzz.com/z_stat.php?id=${CNZZ_ID}${mode}`
+  script.id = CNZZ_ID
   script.language = 'JavaScript'
   document.body.appendChild(script)
 }

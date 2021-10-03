@@ -1,5 +1,5 @@
 <template>
-  <span :id="`cnzz_stat_icon_${GA_ID}`"></span>
+  <span :id="`cnzz_stat_icon_${CNZZ_ID}`"></span>
 </template>
 
 <script>
@@ -8,7 +8,7 @@ export default {
   name: "cnzz-analytics",
   data() {
     return {
-      GA_ID: GA_ID,
+      CNZZ_ID: CNZZ_ID,
     };
   },
   mounted(){

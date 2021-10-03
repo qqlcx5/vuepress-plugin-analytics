@@ -2,7 +2,7 @@
 import cnzzAnalytics from './cnzzAnalytics.vue'
 import reqCnzz from './request-cnzz'
 export default ({ Vue, router }) => {
-  if (GA_ID && typeof window !== 'undefined') {
+  if (CNZZ_ID && typeof window !== 'undefined') {
     // 注册组件
     ISCOMP ? Vue.component('CnzzAnalytics', cnzzAnalytics) : reqCnzz()
     // 路由
