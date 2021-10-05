@@ -10,7 +10,6 @@ module.exports = {
       {
         id: '' // 00000000, // 站长统计的ID
         isDebug: false, // 打印上报router信息，判断插件正常使用
-        isComp: false, // 通过组件展示站长统计...
         type: ''
         // pic1 图标1
         // pic2 图标2
@@ -29,6 +28,6 @@ module.exports = {
 ## 使用
 
 ```js
-// 需要设置isComp: true 页面上引用组件展示站长统计 PV ...，默认不展示
+// vue组件，引用组件展示站长统计 PV ...，默认不展示
 <cnzz-analytics />
 ```
