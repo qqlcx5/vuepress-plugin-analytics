@@ -1,17 +1,20 @@
 {
-  "name": "vuepress-plugin-cnzz-analytics",
-  "version": "1.9.7",
-  "description": "cnzz-analytics plugin for vuepress",
-  "keywords": [
-    "documentation",
-    "generator",
-    "vue",
-    "vuepress"
-  ],
-  "license": "MIT",
-  "author": "前端有道",
-  "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "vuepress-plugin-analytics",
+    "version": "1.0.2",
+    "description": "google analytics or baidu analytics plugin for vuepress",
+    "keywords": [
+        "vue",
+        "vuepress",
+        "vuepress-plugin",
+        "baidu-analytics",
+        "analytics",
+        "baidu",
+        "百度统计"
+    ],
+    "license": "MIT",
+    "author": "前端有道",
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    }
 }
