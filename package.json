@@ -1,6 +1,6 @@
 {
     "name": "vuepress-plugin-analytics",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "google analytics or baidu analytics plugin for vuepress",
     "keywords": [
         "vue",

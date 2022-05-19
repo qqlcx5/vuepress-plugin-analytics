@@ -39,7 +39,7 @@ export default ({ router }) => {
                 ga('send', 'pageview')
             }
             if(BA_ID){
-                _hmt.push(['_trackPageview', decode(from.fullPath)])
+                _hmt.push(['_trackPageview', decode(to.fullPath)])
             }
         })
     }
